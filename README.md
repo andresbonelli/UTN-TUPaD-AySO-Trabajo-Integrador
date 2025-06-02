@@ -24,10 +24,10 @@ docker build -t promedio-interactivo .
 
 ## ▶️ Ejecución del contenedor
 
-1. Ejecutr el programa de forma interactiva con el siguiente comando:
+1. Ejecutr el programa de forma interactiva con el siguiente comando (elimina el container automaticamente al finalizar):
 
 ```bash
-docker run -it promedio-interactivo
+docker run --rm -it promedio-interactivo
 ```
 ## 🧪 Ejemplo de uso
 
