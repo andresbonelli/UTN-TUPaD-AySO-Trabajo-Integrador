@@ -1,4 +1,7 @@
-# Calculadora de Promedio Interactivo en Python
+# Trabajo Práctico Integrador - Arquitectura y Sistemas Operativos
+## Tecnicatura en Programación a Distancia - UTN
+
+## Tema: Virtualización
 
 El proyecto consiste en un programa en Python que solicita al usuario ingresar números, valida cada entrada y calcula el promedio. 
 Este repositorio incluye el archivo de configuracion para ejecutar el programa dentro de un contenedor Docker utilizando una imagen de Python 3.11.
@@ -13,7 +16,7 @@ Este repositorio incluye el archivo de configuracion para ejecutar el programa d
 
 - [Docker](https://www.docker.com/) instalado.
 
-## Descargar el repositorio 
+## ⬇️ Descargar el repositorio 
 
 ```bash
 git clone https://github.com/andresbonelli/UTN-TUPaD-AySO-Trabajo-Integrador
