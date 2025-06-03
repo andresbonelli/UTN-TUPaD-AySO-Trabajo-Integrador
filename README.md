@@ -13,11 +13,20 @@ Este repositorio incluye el archivo de configuracion para ejecutar el programa d
 
 - [Docker](https://www.docker.com/) instalado.
 
+## Descargar el repositorio 
+
+```bash
+git clone https://github.com/andresbonelli/UTN-TUPaD-AySO-Trabajo-Integrador
+```
+
 ## ⚙️ Construcción de la imagen Docker
 
 1. Abrir una terminal sobre el directorio raiz.
 2. Ejecutar el siguiente comando para construir la imagen Docker:
 
+```bash
+cd UTN-TUPaD-AySO-Trabajo-Integrador
+```
 ```bash
 docker build -t promedio-interactivo .
 ```
