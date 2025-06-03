@@ -1,15 +1,7 @@
-from csv import excel
-
-
-def es_numero(val):
-    try:
-        float(val)
-        return True
-    except ValueError:
-        return False
-
 def main():
-    print("Ingrese números para calcular el promedio (cualquier otro caracter para terminar).")
+    print("Bienvenido al programa de calcular promedio.")
+    print("--------------------------------------------")
+    print("Ingrese los números de a uno por vez o 'fin' para terminar y mostrar el resultado.")
     numeros = []
     contador = 1
     while True:
